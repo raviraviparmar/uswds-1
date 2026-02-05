@@ -38,10 +38,10 @@
                         How can we help you today?
                     </p>
                     <form class="usa-search usa-search--small" role="search">
-                        <label class="usa-sr-only" for="search-field">Search</label>
+                        <label class="usa-sr-only" for="hero-search-field">Search</label>
                         <input
                             class="usa-input"
-                            id="search-field"
+                            id="hero-search-field"
                             type="search"
                             name="search" />
                         <button class="usa-button" type="submit">
@@ -60,7 +60,7 @@
                 <div class="usa-card usa-card--header-first desktop:grid-col-5 tablet:grid-col-6 tablet:margin-0">
                     <div class="usa-card__container margin-x-0">
                         <div class="usa-card__header">
-                            <h4 class="usa-card__heading">Meet Mayor RFP Mart</h4>
+                            <h3 class="usa-card__heading">Meet Mayor RFP Mart</h3>
                         </div>
                         <div class="usa-card__media usa-card__media--exdent">
                             <div class="usa-card__img height-card">
@@ -94,29 +94,25 @@
 
                     <a
                         href="departments-city-council.html"
-                        class="usa-button flex-justify-start height-7 width-full bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black"
-                        style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
+                        class="usa-button quick-link-arrow flex-justify-start height-7 width-full bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black">
                         <span class="font-body-md text-black">City Council</span>
                     </a>
 
                     <a
                         href="departments-directory-accordion.html"
-                        class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black"
-                        style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
+                        class="usa-button quick-link-arrow flex-justify-start height-7 width-full margin-top-1 bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black">
                         <span class="font-body-md text-black">City Departments</span>
                     </a>
 
                     <a
                         href="sample-pages-careers.html"
-                        class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black"
-                        style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
+                        class="usa-button quick-link-arrow flex-justify-start height-7 width-full margin-top-1 bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black">
                         <span class="font-body-md text-black">Careers</span>
                     </a>
 
                     <a
                         href="departments-police.html"
-                        class="usa-button flex-justify-start height-7 width-full margin-top-1 bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black"
-                        style="background-image: url('uswds/dist/img/usa-icons/navigate_next.svg'); background-repeat: no-repeat; background-position: right 1.25rem center;">
+                        class="usa-button quick-link-arrow flex-justify-start height-7 width-full margin-top-1 bg-primary-lighter hover:bg-primary-lighter hover:border-1px hover:border-black">
                         <span class="font-body-md text-black">Police</span>
                     </a>
                 </div>
@@ -163,12 +159,12 @@
             </div>
             <div class="grid-row grid-gap-1">
                 <div class="usa-card desktop:grid-col-5">
-                    <div class="usa-card__container display-flex position-relative flex-column flex-justify-center flex-align-center minh-card-lg text-center text-white hover:shadow-4"
+                    <div class="usa-card__container card-overlay display-flex position-relative flex-column flex-justify-center flex-align-center minh-card-lg text-center text-white hover:shadow-4"
                         style="background-image: url('images/webp/bt-sustainable-infra.webp'); background-size: cover; background-position: center;">
                         <div class="usa-card__header">
-                            <h4 class="usa-card__heading" id="sustainable-heading">
+                            <h3 class="usa-card__heading" id="sustainable-heading">
                                 Sustainable City Infrastructure Plan
-                            </h4>
+                            </h3>
                         </div>
 
                         <p class="">
@@ -186,12 +182,12 @@
                 <div class="tablet:grid-col-12 desktop:grid-col-7">
                     <ul class="usa-card-group grid-row grid-gap-1 flex-justify-center flex-align-center text-center">
                         <li class="usa-card tablet:grid-col-6 height-card">
-                            <div class="usa-card__container display-flex flex-column flex-justify-center text-white hover:shadow-4"
+                            <div class="usa-card__container card-overlay display-flex flex-column flex-justify-center text-white hover:shadow-4"
                                 style="background-image: url('images/webp/bt-neighborhood-green-spaces.webp'); background-size: cover; background-position: center;">
                                 <div class="usa-card__header">
-                                    <h4 class="usa-card__heading" id="neighbor-heading">
+                                    <h3 class="usa-card__heading" id="neighbor-heading">
                                         Neighborhood Green Spaces Program
-                                    </h4>
+                                    </h3>
                                 </div>
 
                                 <a href="#"
@@ -203,15 +199,15 @@
                         </li>
 
                         <li class="usa-card tablet:grid-col-6 height-card">
-                            <div class="usa-card__container display-flex flex-column flex-justify-center text-white hover:shadow-4"
+                            <div class="usa-card__container card-overlay display-flex flex-column flex-justify-center text-white hover:shadow-4"
                                 style="background-image: url('images/webp/bt-affordable-housing.webp'); background-size: cover; background-position: center;">
                                 <a href="#" class="display-block position-absolute top-0 left-0 width-full height-full z-200">
                                     <span class="usa-sr-only">Read more about Affordable Housing Support</span>
                                 </a>
                                 <div class="usa-card__header">
-                                    <h4 class="usa-card__heading" id="affordable-heading">
+                                    <h3 class="usa-card__heading" id="affordable-heading">
                                         Affordable Housing Support
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <a href="#"
                                     class="display-block position-absolute top-0 left-0 width-full height-full z-200"
@@ -222,13 +218,13 @@
                         </li>
 
                         <li class="usa-card tablet:grid-col-6 height-card">
-                            <div class="usa-card__container display-flex flex-column flex-justify-center text-white hover:shadow-4"
+                            <div class="usa-card__container card-overlay display-flex flex-column flex-justify-center text-white hover:shadow-4"
                                 style="background-image: url('images/webp/bt-small-business-growth.webp'); background-size: cover; background-position: center;">
 
                                 <div class="usa-card__header">
-                                    <h4 class="usa-card__heading" id="small-business-heading">
+                                    <h3 class="usa-card__heading" id="small-business-heading">
                                         Small Business Growth Assistance
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <a href="#"
                                     class="display-block position-absolute top-0 left-0 width-full height-full z-200"
@@ -239,13 +235,13 @@
                         </li>
 
                         <li class="usa-card tablet:grid-col-6 height-card">
-                            <div class="usa-card__container display-flex flex-column flex-justify-center text-white hover:shadow-4"
+                            <div class="usa-card__container card-overlay display-flex flex-column flex-justify-center text-white hover:shadow-4"
                                 style="background-image: url('images/webp/bt-clean-mobility.webp'); background-size: cover; background-position: center;">
 
                                 <div class="usa-card__header">
-                                    <h4 class="usa-card__heading" id="clean-heading">
+                                    <h3 class="usa-card__heading" id="clean-heading">
                                         Clean Mobility Pilot
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <a href="#"
                                     class="display-block position-absolute top-0 left-0 width-full height-full z-200"
@@ -280,11 +276,11 @@
                             </div>
 
                             <div class="usa-collection__body">
-                                <h4 class="usa-collection__heading">
+                                <h3 class="usa-collection__heading">
                                     <a
                                         class="usa-link"
-                                        href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">Gears of Government President’s Award winners</a>
-                                </h4>
+                                        href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">Gears of Government President's Award winners</a>
+                                </h3>
                                 <p class="usa-collection__description text-base">
                                     by John Doe
                                 </p>
@@ -298,11 +294,11 @@
                             </div>
 
                             <div class="usa-collection__body">
-                                <h4 class="usa-collection__heading">
+                                <h3 class="usa-collection__heading">
                                     <a
                                         class="usa-link"
-                                        href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">Gears of Government President’s Award winners</a>
-                                </h4>
+                                        href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">Gears of Government President's Award winners</a>
+                                </h3>
                                 <p class="usa-collection__description text-base">
                                     by John Doe
                                 </p>
@@ -316,11 +312,11 @@
                             </div>
 
                             <div class="usa-collection__body">
-                                <h4 class="usa-collection__heading">
+                                <h3 class="usa-collection__heading">
                                     <a
                                         class="usa-link"
-                                        href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">Gears of Government President’s Award winners</a>
-                                </h4>
+                                        href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">Gears of Government President's Award winners</a>
+                                </h3>
                                 <p class="usa-collection__description text-base">
                                     by John Doe
                                 </p>
@@ -359,9 +355,9 @@
                                 <p class="font-body-2xs margin-0 text-base line-height-sans-1">
                                     Monday, 11:20 AM
                                 </p>
-                                <h4 class="usa-collection__heading text-italic margin-top-1">
+                                <h3 class="usa-collection__heading text-italic margin-top-1">
                                     Public Forum
-                                </h4>
+                                </h3>
                                 <p class="font-body-2xs text-base line-height-sans-1">
                                     Albert Hall
                                 </p>
@@ -387,9 +383,9 @@
                                 <p class="font-body-2xs margin-0 text-base line-height-sans-1">
                                     Monday, 11:20 AM
                                 </p>
-                                <h4 class="usa-collection__heading text-italic margin-top-1">
+                                <h3 class="usa-collection__heading text-italic margin-top-1">
                                     Public Forum
-                                </h4>
+                                </h3>
                                 <p class="font-body-2xs text-base line-height-sans-1">
                                     Albert Hall
                                 </p>
@@ -415,9 +411,9 @@
                                 <p class="font-body-2xs margin-0 text-base line-height-sans-1">
                                     Monday, 11:20 AM
                                 </p>
-                                <h4 class="usa-collection__heading text-italic margin-top-1">
+                                <h3 class="usa-collection__heading text-italic margin-top-1">
                                     Public Forum
-                                </h4>
+                                </h3>
                                 <p class="font-body-2xs text-base line-height-sans-1">
                                     Albert Hall
                                 </p>
