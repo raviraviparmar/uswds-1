@@ -100,7 +100,7 @@
                 <li class="usa-card tablet:grid-col">
                     <div class="usa-card__container hover:shadow-4">
                         <div class="usa-card__header">
-                            <h4 class="usa-card__heading" id="culture-heritage-heading">Culture & Heritage</h4>
+                            <h3 class="usa-card__heading" id="culture-heritage-heading">Culture & Heritage</h3>
                         </div>
                         <div class="usa-card__media">
                             <div class="usa-card__img height-card">
@@ -125,7 +125,7 @@
                 <li class="usa-card tablet:grid-col">
                     <div class="usa-card__container hover:shadow-4">
                         <div class="usa-card__header">
-                            <h4 class="usa-card__heading" id="nature-outdoors-heading">Nature & Outdoors</h4>
+                            <h3 class="usa-card__heading" id="nature-outdoors-heading">Nature & Outdoors</h3>
                         </div>
                         <div class="usa-card__media">
                             <div class="usa-card__img height-card">
@@ -150,7 +150,7 @@
                 <li class="usa-card tablet:grid-col">
                     <div class="usa-card__container hover:shadow-4">
                         <div class="usa-card__header">
-                            <h4 class="usa-card__heading" id="community-life-heading">Community & Life</h4>
+                            <h3 class="usa-card__heading" id="community-life-heading">Community & Life</h3>
                         </div>
                         <div class="usa-card__media">
                             <div class="usa-card__img height-card">
