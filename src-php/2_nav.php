@@ -95,11 +95,11 @@
 			<div class="usa-logo">
 				<em class="usa-logo__text"><a href="./" title="<Project title>">RFPMart City</a></em>
 			</div>
-			<button type="button" class="usa-menu-btn z-top">Menu</button>
+			<button type="button" class="usa-menu-btn z-top" aria-expanded="false" aria-controls="usa-nav">Menu</button>
 
 		</div>
 
-		<nav aria-label="Primary navigation" class="usa-nav z-top">
+		<nav id="usa-nav" aria-label="Primary navigation" class="usa-nav z-top">
 			<div class="usa-nav__inner">
 
 				<button type="button" class="usa-nav__close">
@@ -352,10 +352,10 @@
 				<div class="usa-nav__secondary">
 
 					<form class="usa-search usa-search--small" role="search">
-						<label class="usa-sr-only" for="search-field">Search</label>
+						<label class="usa-sr-only" for="nav-search-field">Search</label>
 						<input
 							class="usa-input"
-							id="search-field"
+							id="nav-search-field"
 							type="search"
 							name="search" />
 						<button class="usa-button" type="submit">
