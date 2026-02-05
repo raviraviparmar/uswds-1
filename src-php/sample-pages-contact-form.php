@@ -55,25 +55,27 @@
                                         id="family-name"
                                         name="last-name"
                                         aria-describedby="lnHint" />
-                                    <label class="usa-label" for="family-name">Email (Required):</label>
+                                    <label class="usa-label" for="email">Email (Required):</label>
                                     <input
                                         class="usa-input"
-                                        id="family-name"
-                                        name="last-name"
-                                        aria-describedby="lnHint"
+                                        id="email"
+                                        name="email"
+                                        type="email"
+                                        aria-describedby="emailHint"
                                         required />
-                                    <label class="usa-label" for="family-name">Subject (Required):</label>
+                                    <label class="usa-label" for="subject">Subject (Required):</label>
                                     <input
                                         class="usa-input"
-                                        id="family-name"
-                                        name="last-name"
-                                        aria-describedby="lnHint"
+                                        id="subject"
+                                        name="subject"
+                                        aria-describedby="subjectHint"
                                         required />
                                     <label class="usa-label" for="input-type-textarea">Inquiry (Required):</label>
                                     <textarea
                                         class="usa-textarea"
                                         id="input-type-textarea"
-                                        name="input-type-textarea"></textarea>
+                                        name="input-type-textarea"
+                                        required></textarea>
                                     <input class="usa-button margin-0" type="submit" value="Submit" />
                                 </fieldset>
                             </form>
