@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Custom CSS — USWDS v3.13.0 Enhancement Layer
+   ========================================================================== */
+
+/* --- Smooth Transitions --- */
+.usa-card__container,
+.usa-button,
+.usa-link,
+.usa-nav__link,
+.usa-pagination__button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* --- Focus States (keyboard accessibility) --- */
+:focus-visible {
+  outline: 2px solid #2491ff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(36, 145, 255, 0.3);
+}
+
+/* --- Card Hover Effects --- */
+.usa-card__container:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Card Overlay (dark gradient for text readability on bg-image cards) --- */
+.card-overlay {
+  position: relative;
+}
+
+.card-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card-overlay > * {
+  position: relative;
+  z-index: 2;
+}
+
+.card-overlay > a[class*="position-absolute"] {
+  z-index: 200;
+}
+
+/* --- Hero Readability --- */
+.usa-hero__callout {
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+/* --- Button Polish --- */
+.usa-button:hover {
+  transform: translateY(-1px);
+}
+
+.usa-button:active {
+  transform: translateY(1px);
+}
+
+.usa-button--outline {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* --- Nav / Footer Polish --- */
+.usa-nav__submenu {
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.usa-footer__social-link:hover img,
+.usa-footer__social-link:hover svg {
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+
+.usa-footer a {
+  transition: opacity 0.15s ease;
+}
+
+.usa-footer a:hover {
+  opacity: 0.8;
+}
+
+/* --- Pagination --- */
+.usa-pagination__button:hover {
+  background-color: #d9e8f6;
+}
+
+/* --- Form Enhancements --- */
+.usa-input:focus,
+.usa-textarea:focus,
+.usa-select:focus {
+  border-color: #2491ff;
+  box-shadow: 0 0 0 2px rgba(36, 145, 255, 0.25);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* --- Quick-Link Arrow (replaces inline background-image styles) --- */
+.quick-link-arrow {
+  background-image: url("../uswds/dist/img/usa-icons/navigate_next.svg");
+  background-repeat: no-repeat;
+  background-position: right 1.25rem center;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 39.99em) {
+  .usa-card-group {
+    gap: 1rem;
+  }
+
+  .usa-pagination {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .usa-footer .grid-row {
+    text-align: center;
+  }
+
+  .usa-hero__callout {
+    font-size: 0.95rem;
+  }
+}
+
+/* --- Print Styles --- */
+@media print {
+  .usa-banner,
+  .usa-nav,
+  .usa-header,
+  .usa-footer,
+  .usa-pagination,
+  .usa-overlay {
+    display: none !important;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+  }
+}
